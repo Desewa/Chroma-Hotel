@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+header{
+   background-color:purple;
+   width: 150%; 
+   height: 40px;
+}
+ header ul{
+     display: inline-flex;
+ }
+ header ul label{
+     font-size: 20px;
+     margin-top: 8px;
+     margin-right: 700px; ;
+     color: rgb(226, 43, 180);
+ }
+ header ul li{
+     list-style: none;
+     margin-top:8px;
+ }
+ header ul li a{ 
+     text-decoration: none;
+     font-size: 20px;
+     text-transform: capitalize;
+     color: aliceblue;
+     margin-right:15px; ;
+ }
+ section{
+     height: 500px;
+     background-image: url(../img/xxl_153132160.jpg); 
+ }
+ section h2{
+     font-size: 150px;
+     margin-top:100px ;
+     text-align: center;
+     color:paleturquoise;
+ }
+ section h6{
+     font-size:50px ;
+     text-align: center;
+     color:aqua;
+     margin-top:30px ;
+ }
+ li a:hover{
+     color: rgb(220, 182, 255);
+     background-color: aqua;
+ }
+
+ /* Styling Blog.html */
+ .layo img{
+     margin-top: 6%;
+     width: 350px;
+    height: 180px;
+    margin-left: 6%;
+ }
+ .layo{
+     background-color: rgb(110, 110, 224);
+     height: 590px;
+ }
